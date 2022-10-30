@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "434451143643",
+    "project_id": "be-safe-db-25212",
+    "storage_bucket": "be-safe-db-25212.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434451143643:android:1696f3e8d3e5402a86e5fe",
+        "android_client_info": {
+          "package_name": "com.example.be_save"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434451143643-cog7v1oiddopf10vnqjau8rgn3dehcu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn8fAJSiuuOtsWw6bQ71hFCWtjAz7eTYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434451143643-cog7v1oiddopf10vnqjau8rgn3dehcu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

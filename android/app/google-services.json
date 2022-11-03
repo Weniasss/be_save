@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "434451143643",
-    "project_id": "be-safe-db-25212",
-    "storage_bucket": "be-safe-db-25212.appspot.com"
+    "project_number": "49075732089",
+    "project_id": "be-safe-228a9",
+    "storage_bucket": "be-safe-228a9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:434451143643:android:1696f3e8d3e5402a86e5fe",
+        "mobilesdk_app_id": "1:49075732089:android:9bada3b45dd663c8b2dea8",
         "android_client_info": {
           "package_name": "com.example.be_save"
         }
       },
       "oauth_client": [
         {
-          "client_id": "434451143643-cog7v1oiddopf10vnqjau8rgn3dehcu0.apps.googleusercontent.com",
+          "client_id": "49075732089-922qka3laf6g1b8chk044iftn9625mti.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDn8fAJSiuuOtsWw6bQ71hFCWtjAz7eTYI"
+          "current_key": "AIzaSyBbpxyFlMNbiN77oijhVxwgpgYKwJhzREg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "434451143643-cog7v1oiddopf10vnqjau8rgn3dehcu0.apps.googleusercontent.com",
+              "client_id": "49075732089-922qka3laf6g1b8chk044iftn9625mti.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

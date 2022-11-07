@@ -1,39 +1,35 @@
-import 'package:be_save/login/email_login.dart';
+import 'package:be_save/login/login.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
-import 'login/email_login.dart';
-
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(App());
 }
 
 class App extends StatelessWidget {
   // const App({super.key});
 
-  final _initialization = Firebase.initializeApp();
+  // final _initialization = Firebase.initializeApp();
 
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-      future: _initialization,
-      builder: (context, snapshot) {
-
-        if(snapshot.connectionState != ConnectionState.done){
-          return Center(child: CircularProgressIndicator(),);
-        }
-
-        return MaterialApp(
-          title: 'Flutter Demo',
-          theme: ThemeData(
-
-            primarySwatch: Colors.blue,
-          ),
-          home: EmailLogin(),
-        );
-      }
-    );
+        // future: _initialization,
+        builder: (context, snapshot) {
+      return MaterialApp(
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          primarySwatch: Colors.purple,
+        ),
+        home: EmailLogin(),
+      );
+    });
   }
 }
 
@@ -45,12 +41,15 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-
   @override
   void initState() {
-    // TODO: implement initState
-    Firebase.initializeApp();
+    testFirebase();
     super.initState();
+  }
+
+  testFirebase() async {
+    final initApp = await Firebase.initializeApp();
+    print(initApp);
   }
 
   @override
